@@ -1,0 +1,32 @@
+/* Estilos para los productos */
+.contenedor-productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .producto {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .producto h2 {
+    margin-top: 0;
+  }
+  
+  .producto p {
+    margin-bottom: 10px;
+  }
+  
+  .disponible {
+    color: green;
+  }
+  
+  .no-disponible {
+    color: red;
+  }
+  

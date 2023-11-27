@@ -1,0 +1,91 @@
+@media screen and (min-width: 769px){}
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(/static/images/pngtree-football-stadium-wide-angle-scene-photography-advertising-background-picture-image_2402004\ \(1\).jpg);
+    background-size: cover; /* Opcional: para ajustar el tamaño de la imagen al contenedor */
+    background-repeat: no-repeat;
+    
+  }
+  header {
+    background-color:gold;
+    padding: 20px;
+    text-align: center;
+    margin-top: 23px;
+    color:rgb(255, 255, 255);
+  }
+  nav {
+    background-color:rgb(13, 14, 92);
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 200px;
+    
+  }
+  nav ul li a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+
+  }
+  section {
+    padding: 20px;
+    text-align: center;
+  }
+  footer {
+    background-color:gold;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: rgb(2, 2, 2)
+  }
+  .boton-estilo {
+      display:inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      cursor: pointer;
+      border-radius: 19px;
+      background-color: #939990;
+      color:gold;
+      border: none;
+      transition: background-color 0.3s ease;
+      margin-right: 39px;
+
+  }
+  /* Estilos para las imágenes giratorias */
+
+.rotating-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rotating-images img {
+  width: 200px; /* Ajusta el tamaño según tus necesidades */
+  height: 200px; /* Ajusta el tamaño según tus necesidades */
+  margin: 10px;
+  animation: rotateImage 4s infinite linear; /* Duración, repetición y tipo de animación */
+}
+
+@keyframes rotateImage {
+  from {
+    transform: rotate(0deg); /* Rotación inicial */
+  }
+  to {
+    transform: rotate(360deg); /* Rotación final (una vuelta completa) */
+  }
+}

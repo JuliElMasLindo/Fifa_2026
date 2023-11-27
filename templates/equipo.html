@@ -1,0 +1,25 @@
+{% load static  %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Equipo</title>
+  <link rel="stylesheet" href="{% static "css/equipo.css" %} ">
+</head>
+<body>
+  <h1> {{ message }}  </h1>
+
+  <div class="contenedor-productos">
+    {% for equipo in equipos %}
+     <div class="producto">
+       <h2>{{ equipo.Nombre_del_equipo }}</a></h2>
+       
+      
+      </div>
+
+    {% endfor %}
+    <!-- Puedes agregar más divs con la clase "producto" para más productos -->
+  </div>
+</body>
+</html>
+
